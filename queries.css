@@ -30,6 +30,7 @@
         background-repeat: no-repeat; 
         background-size: cover; 
         height: 80vh;
+        width: 85%
         /* position: fixed; */
     }
     .word{
@@ -65,7 +66,7 @@
     }
     .images{
         display: flex;
-        justify-content: center;
+        flex-direction: column;
     }
     .but3{
         background-color: rgb(232, 120, 139);
@@ -80,13 +81,16 @@
         /* margin-top: 20px; */
     
     }
-    .content{
+    
+     .imA{
         display: grid;
-        grid-template-columns: auto auto;
-        /* grid-gap: 10px; */
-        margin-left: 100px;
-        flex-direction: column;
+        width: 50%;
+        
+    
     }
+    .imB{
+        width: 90%;
+    } 
     .texts{
         text-align: center;
     }
@@ -96,7 +100,17 @@
         gap: 7rem;
     }
     .img img{
-        width: 100%;
+        width: 95%;
+        
+    }
+    /* .content{
+        display: grid;
+        /* grid-template-columns: repeat(auto); */
+        /* width: 80%; */
+    /* } */ 
+    .cont{
+        /* display: grid; */
+        flex-direction: column;
     }
     
         
