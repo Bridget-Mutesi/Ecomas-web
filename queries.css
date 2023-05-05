@@ -1,0 +1,108 @@
+
+@media screen and (max-width: 767px){
+ 
+
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 45px;
+        padding-left: 8%;
+        padding-right: 8%;
+        margin-left: 20%;
+    }
+    nav ul li{
+        list-style-type: none;
+        display: inline-block;
+        padding: 10px 25px; 
+        text-decoration: none;
+        color: rgb(128, 122, 122);
+        
+    }
+     nav ul li a{
+        color: rgb(128, 122, 122);
+        text-decoration: none;
+        font-weight: bold; 
+    }
+    .words{
+        background-image: url("/Screenshot\ from\ 2023-05-02\ 18-35-02\ \(1\)_cleanup.png");
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        height: 80vh;
+        /* position: fixed; */
+    }
+    .word{
+        padding-top: 150px;
+        margin-left: 150px;
+        color: white;
+        font-family: Robot;
+    
+    }
+    .but{
+        background-color: rgb(232, 120, 139);
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 10px 25px;
+        transition: transform .4s;
+        margin-top: 20px;
+    }
+    .new{
+        text-align: center;
+        color:  rgb(128, 122, 122);
+    }
+    .news{
+        display: flex;
+        gap: 2rem;
+        /* text-align: center; */
+        justify-content: center;
+        font-weight: lighter;
+    }
+    .d{
+        text-decoration: underline;
+    }
+    .images{
+        display: flex;
+        justify-content: center;
+    }
+    .but3{
+        background-color: rgb(232, 120, 139);
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 10px 25px;
+        width: 10%;
+         margin-left: 400px; 
+        
+        
+        /* margin-top: 20px; */
+    
+    }
+    .content{
+        display: grid;
+        grid-template-columns: auto auto;
+        /* grid-gap: 10px; */
+        margin-left: 100px;
+        flex-direction: column;
+    }
+    .texts{
+        text-align: center;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        gap: 7rem;
+    }
+    .img img{
+        width: 100%;
+    }
+    
+        
+    
+
+ 
+}
+
+ 
